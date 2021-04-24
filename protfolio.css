@@ -1,0 +1,195 @@
+
+  /* color pallet is 
+  https://colorhunt.co/palette/264587 */
+body{
+  text-align: center;
+}
+.big-heading {
+  font-family: 'Bree Serif', serif;
+  font-size: 5rem;
+  margin-top: 20%;
+  color: #00303f;
+  margin-right: 0;
+  text-shadow: 2px;
+}
+
+
+.row{
+  margin-right: 0;
+}
+
+@media (max-width:1600px){ 
+       .work-img{
+         width: 50%;
+       }
+}
+
+
+@media (max-width:1200px){ 
+      
+  .work-img{
+    width: 60%;
+  }
+    .skill-heading{
+      font-size: 3rem;
+    }
+}
+
+
+
+
+@media (max-width:900px){
+  .work-img{
+    width: 70%;
+    margin-bottom: 5%;
+    box-shadow: 5px 10px ;
+   
+   }
+
+
+}
+
+@media (max-width:575px){    
+  .work-img{
+    width: 80%;
+  }
+    #skill{
+      padding: 0% 5%;
+    }
+
+  .skill-heading{
+    font-size: 3rem;
+  }
+
+  .work-heading{
+    font-size: 3rem;
+  }
+  .skill-div{
+      width: 50%;
+    }
+
+}
+
+
+@media (max-width:400px){ 
+    .big-heading{
+      
+      font-size: 4rem;
+    }   
+
+}
+
+
+
+@media (max-width:300px){ 
+      .big-heading{
+        font-size: 3rem;
+      }
+
+}
+
+
+  /* title section */
+
+
+  .navbar{
+  
+    font-family: 'Bree Serif', serif;
+    padding: 3% 4%;
+  }
+
+#title{
+      background-color: #ddffbc;     /* #ddffbc */
+    color: #00303f;
+    padding-bottom: 10%;
+    box-shadow: 5px 10px ;
+}
+.title-image{
+  width: 80%;
+  height: 100%;
+  padding-top: 10%;
+  border-radius: 100%;
+  pointer-events: none;
+  
+  
+}
+
+     /* skill */
+
+     #skill{
+       background-color: #fff;
+     }
+
+     .skill-img{
+       width: 80%;
+       border-radius:0% 0% 50% 50% ;
+       border: 0px solid black;
+       cursor: not-allowed;
+    
+     }
+     
+     .skill-img:hover{
+       border: 5px solid black;
+     }
+     .skill-heading{
+      font-family: 'Bree Serif', serif;
+      /* font-family: 'Pacifico', cursive; */
+       display: inline;
+      
+      
+     
+     }
+     #skill img{
+       margin-bottom: 20%;
+
+     }
+
+     /* WORK SECTION */
+     #work{
+       background-color: #91c788;
+     }
+     
+     .work-heading{
+      font-family: 'Bree Serif', serif;
+      /* font-family: 'Pacifico', cursive; */
+    
+     
+     }
+     .work-img{
+      
+      margin-bottom: 5%;
+      box-shadow: 5px 10px ;
+     
+     }
+     .work-img:hover{
+      border: 4px solid black;
+     }
+
+     /* FOOTER SECTION */
+
+     #footer{
+     background-color: #fff;
+     color: black;
+     }
+     .foot-heading{
+      margin-top: 10%;
+
+     }
+     i{
+       font-size: 3rem;
+       cursor: pointer;
+     }
+     .brown:hover{
+       color:purple;
+     }
+
+     .green:hover{
+       color: red;
+     }
+     .orange:hover{
+       color: blue;
+     }
+     .lightyellow:hover{
+       color:#ef0176;
+     }
+
